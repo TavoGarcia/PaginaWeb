@@ -1,0 +1,184 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fff;
+    color: black;
+    font-family: "Helvetica, Arial, Sans-serif";
+    
+}
+
+a{
+    color: black;
+    text-decoration: none;}
+a:hover{
+    text-decoration: underline;
+}
+
+.desp{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+.main{
+   /* background-image: url(..);
+    background-repeat: no-repeat;*/
+    overflow: hidden;
+    width: 100%;
+    /*min-height: 584px;*/
+}
+
+.vista1{
+    color: #2b1d5b;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.vista1 h2{
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img{
+    height: 250px;
+        
+}
+
+.seccionToggle{
+    display: none;
+    height: calc(100vh - 50px);
+    background: #fff;
+    color: #001f3f;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.seccionToggle h2 {
+    font-size: 60px;
+    margin-top: 30px; }
+
+  .seccionToggle p {
+    font-size: 25px;
+    margin-bottom: 20px; }
+
+  /*.seccionToggle button {
+    background: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 40px;
+    display: inline-block;
+    border: 5px solid #001F3F;
+    transition: 0.3s all ease; }
+
+    .seccionToggle button:hover {
+      border: 5px solid #0074D9;
+      color: #0074D9; }*/
+
+input[type="email"]{
+    background: none;
+    width: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 40px;
+    display: inline-block;
+    border: 3px solid #001F3F;
+    transition: 0.3s all ease; 
+}
+
+input[type="email"]:hover{
+    border: 3px solid #0074D9;
+      color: #0074D9; 
+}
+
+input[type="password"]{
+    background: none;
+    width: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 40px;
+    display: inline-block;
+    border: 3px solid #001F3F;
+    transition: 0.3s all ease; 
+}
+
+input[type="password"]:hover{
+    border: 3px solid #0074D9;
+      color: #0074D9; 
+}
+
+input[type="submit"]{
+    background: #001F3F;
+    width: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 10px 40px;
+    display: inline-block;
+    border: 3px solid #001F3F;
+    transition: 0.3s all ease; 
+}
+
+input[type="submit"]:hover{
+    background: #003163;
+    border: 3px solid #003163;
+      color: white; 
+}
+
+button{
+    background: #001F3F;
+    width: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 10px 40px;
+    display: inline-block;
+    border: 3px solid #001F3F;
+    transition: 0.3s all ease; 
+}
+
+button:hover{
+    background: #003163;
+    border: 3px solid #003163;
+      color: white;
+}
+
+.btn-toggle{
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    display: block;
+    background: #e97915;
+    text-align: center;
+    
+}
+
+.btn-toggle:hover {
+    
+    text-decoration: none; }
+
+
+
+@media screen and (max-width: 500px) {
+  .seccionToggle h2 {
+    margin-top: 0; } }
+@media screen and (max-height: 550px) {
+  .seccionToggle h2 {
+    font-size: 40px;
+    margin-top: 0; } }

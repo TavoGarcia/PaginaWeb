@@ -1,0 +1,8 @@
+consultas para sistema web
+
+SELECT nombre, grupo, carrera, hora_entrada,
+hora_salida, sala, dia FROM bitacora, docente
+WHERE docente.nip=bitacora.docente
+
+NOTA: checar que los collapse se pongan
+automaticamente cada que se inserte un docente
