@@ -2,6 +2,7 @@
 error_reporting(E_PARSE);
 /*Solo modifica lo que se encuentra en medio de las segundas
  comillas de los parentesis. Ejemplo: define("USER", "valor que ingresaras" ); 
+ prueba para GIT
  */
 
 //Nombre de usuario de mysql
