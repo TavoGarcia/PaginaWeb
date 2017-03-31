@@ -7,7 +7,7 @@ create table admin(
     Pass varchar(50) not null
 )ENGINE=INNODB;
 
-
+/*ESTES ES UN COMENTARIO DE PRUEBA*/
 /*TABLA DE DOCENTES*/
 create table docente
 (   
